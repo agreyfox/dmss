@@ -10,7 +10,7 @@ import (
 
 // Run adds Handlers to default http listener for API
 func Run() {
-	fmt.Println(http)
+	fmt.Println("run api interface")
 	http.HandleFunc("/api/contents", Record(CORS(Gzip(contentsHandler))))
 
 	http.HandleFunc("/api/content", Record(CORS(Gzip(contentHandler))))
