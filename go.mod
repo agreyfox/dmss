@@ -35,5 +35,3 @@ require (
 )
 
 replace github.com/etcd-io/bbolt v1.3.4 => go.etcd.io/bbolt v1.3.4
-
-replace github.com/agreyfox/dms => /home/lq/ifb/dms
