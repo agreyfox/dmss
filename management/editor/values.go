@@ -73,6 +73,6 @@ func ValueFromStructField(name string, post interface{}) string {
 		return strings.Join(s, "__ponzu")
 
 	default:
-		panic(fmt.Sprintf("Ponzu: Type '%s' for field '%s' not supported.", field.Type(), name))
+		panic(fmt.Sprintf("Dms: Type '%s' for field '%s' not supported.", field.Type(), name))
 	}
 }

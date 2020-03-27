@@ -22,7 +22,7 @@ require (
 	github.com/jmhodges/levigo v1.0.0 // indirect
 	github.com/nilslice/email v0.1.0
 	github.com/nilslice/jwt v1.0.0
-	github.com/ponzu-cms/ponzu v0.11.0
+
 	github.com/remyoudompheng/bigfft v0.0.0-20190728182440-6a916e37a237 // indirect
 	github.com/spf13/cobra v0.0.6
 	github.com/steveyen/gtreap v0.0.0-20150807155958-0abe01ef9be2 // indirect

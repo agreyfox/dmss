@@ -51,7 +51,8 @@ func Run() {
 		log.Fatalln("Couldn't find current directory for file server.")
 	}
 
-	staticDir := filepath.Join(pwd, "cmd", "ponzu", "vendor", "github.com", "ponzu-cms", "ponzu", "system")
+	staticDir := filepath.Join(pwd, "cmd", "dms", "vendor", "github.com", "agreyfox", "dms", "system")
+	fmt.Printf("Server root is %s\n", staticDir)
 	http.Handle("/admin/static/", db.CacheControl(http.FileServer(restrict(http.Dir(staticDir)))))
 
 	// API path needs to be registered within server package so that it is handled
