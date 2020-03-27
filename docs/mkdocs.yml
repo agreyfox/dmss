@@ -1,9 +1,9 @@
 theme: material
-site_name: Ponzu
+site_name: Dms
 docs_dir: src
 site_dir: build
-repo_name: ponzu-cms/ponzu
-repo_url: https://github.com/ponzu-cms/ponzu
+repo_name: agreyfox/dms
+repo_url: https://github.com/agreyfox/dms
 
 markdown_extensions:
       - codehilite(linenums=false)
@@ -21,7 +21,7 @@ extra:
     accent: light-blue
   social:
     - type: github
-      link: https://github.com/ponzu-cms
+      link: https://github.com/agreyfox
     - type: twitter
-      link: https://twitter.com/ponzu_cms
+      link: https://twitter.com/agreyfox
   logo: images/logo.png
