@@ -22,7 +22,6 @@ require (
 	github.com/jmhodges/levigo v1.0.0 // indirect
 	github.com/nilslice/email v0.1.0
 	github.com/nilslice/jwt v1.0.0
-	github.com/ponzu-cms/ponzu v0.11.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20190728182440-6a916e37a237 // indirect
 	github.com/spf13/cobra v0.0.6
 	github.com/steveyen/gtreap v0.0.0-20150807155958-0abe01ef9be2 // indirect
@@ -30,8 +29,8 @@ require (
 	github.com/tecbot/gorocksdb v0.0.0-20191217155057-f0fad39f321c // indirect
 	github.com/tidwall/gjson v1.6.0
 	github.com/tidwall/sjson v1.0.4
-	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
-	golang.org/x/text v0.3.0
+	golang.org/x/crypto v0.1.0
+	golang.org/x/text v0.4.0
 )
 
 replace github.com/etcd-io/bbolt v1.3.4 => go.etcd.io/bbolt v1.3.4
